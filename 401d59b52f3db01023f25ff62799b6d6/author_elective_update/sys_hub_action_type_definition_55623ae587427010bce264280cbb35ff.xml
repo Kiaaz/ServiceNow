@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>041765842fce301023f25ff62799b6cf</copied_from>
+        <copied_from_name>Get Trivia Answer</copied_from_name>
+        <description>Given a valid sys_id for a Trivia question, returns the answer.</description>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_get_trivia_answer</internal_name>
+        <label_cache>[{"name":"{{action.question_id}}","label":"action➛Question ID","type":"action","ref":""},{"name":"{{step[8750809e-bfb8-4895-a263-d4481650f845].response_body}}","label":"step➛Call getAnswer Method➛Response Body","type":"step","ref":""},{"name":"{{step[8750809e-bfb8-4895-a263-d4481650f845].status_code}}","label":"step➛Call getAnswer Method➛Status Code","type":"step","ref":""},{"name":"{{step[9c39fa42-d6d3-45b6-b82e-87db1abc880f].variable}}","label":"step➛Parse Response➛variable","type":"step","ref":""},{"name":"{{step[9c39fa42-d6d3-45b6-b82e-87db1abc880f].step_output_answer}}","label":"step➛Parse Response➛step_output_answer","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Get Trivia Answer</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55623ae587427010bce264280cbb35ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Get Trivia Answer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">401d59b52f3db01023f25ff62799b6d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_55623ae587427010bce264280cbb35ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:49</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=55623ae587427010bce264280cbb35ff"/>
+    <sys_variable_value action="DELETE" query="document_key=55623ae587427010bce264280cbb35ff"/>
+    <sys_element_mapping action="DELETE" query="id=55623ae587427010bce264280cbb35ff"/>
+    <sys_element_mapping action="DELETE">
+        <field>answer</field>
+        <id>55623ae587427010bce264280cbb35ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>65627ae587427010bce264280cbb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff</table>
+        <value>{{step[9c39fa42-d6d3-45b6-b82e-87db1abc880f].step_output_answer}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="DELETE" query="action=55623ae587427010bce264280cbb35ff^sys_idNOT IN11627ae587427010bce264280cbb350b,a5627ae587427010bce264280cbb353b"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Copy of Get Trivia Answer">55623ae587427010bce264280cbb35ff</action>
+        <cid>8750809e-bfb8-4895-a263-d4481650f845</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Call getAnswer Method</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>11627ae587427010bce264280cbb350b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=11627ae587427010bce264280cbb350b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>11627ae587427010bce264280cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>2d627ae587427010bce264280cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>59627ae587427010bce264280cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>65627ae587427010bce264280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>95627ae587427010bce264280cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>/api/x_snc_now_trivia/trivia/getAnswer</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>a1627ae587427010bce264280cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>d1627ae587427010bce264280cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>25c622622f71741023f25ff62799b6ab</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11627ae587427010bce264280cbb350b</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>ed627ae587427010bce264280cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>https://scripting.service-now.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=11627ae587427010bce264280cbb350b"/>
+    <sys_element_mapping action="DELETE">
+        <field>application</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>d9627ae587427010bce264280cbb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>base_url</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>19627ae587427010bce264280cbb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>capabilities</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>55627ae587427010bce264280cbb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>connection_alias</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>1d627ae587427010bce264280cbb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>headers</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>91627ae587427010bce264280cbb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>query_params</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>9d627ae587427010bce264280cbb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"sys_id","value":"{{action.question_id}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>resource_path</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>dd627ae587427010bce264280cbb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>retry_policy</field>
+        <id>11627ae587427010bce264280cbb350b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>59627ae587427010bce264280cbb3534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="DELETE" query="model=11627ae587427010bce264280cbb350b^sys_idNOT IN1d627ae587427010bce264280cbb3517,59627ae587427010bce264280cbb3511,d5627ae587427010bce264280cbb351d"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=0c6f806f-e0c6-4fce-99b2-da20c6d5f57c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_accept</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Accept</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getAnswer Method">11627ae587427010bce264280cbb350b</model>
+        <model_id>11627ae587427010bce264280cbb350b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_11627ae587427010bce264280cbb350b</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>1d627ae587427010bce264280cbb3517</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=0998e36b-0bc7-4223-b91f-d6c749815201</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Call getAnswer Method">11627ae587427010bce264280cbb350b</model>
+        <model_id>11627ae587427010bce264280cbb350b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_11627ae587427010bce264280cbb350b</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>59627ae587427010bce264280cbb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=d2196c36-39d3-4bd4-b852-29dce0b5f169</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_content-type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Content-Type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getAnswer Method">11627ae587427010bce264280cbb350b</model>
+        <model_id>11627ae587427010bce264280cbb350b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_11627ae587427010bce264280cbb350b</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>d5627ae587427010bce264280cbb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Copy of Get Trivia Answer">55623ae587427010bce264280cbb35ff</action>
+        <cid>9c39fa42-d6d3-45b6-b82e-87db1abc880f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Parse Response</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>a5627ae587427010bce264280cbb353b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=a5627ae587427010bce264280cbb353b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5627ae587427010bce264280cbb353b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>29627ae587427010bce264280cbb3554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+// Pseudocode - if (the response from the REST call indicates it was OK)
+  
+if (inputs.step_input_status_code == '200')  {
+ 
+  	// Use the JSON parser to parse the REST call response body.
+    var response = JSON.parse(inputs.step_input_response_body);
+  
+  // Set the value of the step_output_answer output variable
+  outputs.step_output_answer = response.result.answer;
+
+}
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5627ae587427010bce264280cbb353b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>65627ae587427010bce264280cbb3554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5627ae587427010bce264280cbb353b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>a1627ae587427010bce264280cbb3554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5627ae587427010bce264280cbb353b</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>ed627ae587427010bce264280cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <value/>
+        <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=a5627ae587427010bce264280cbb353b"/>
+    <sys_element_mapping action="DELETE">
+        <field>application</field>
+        <id>a5627ae587427010bce264280cbb353b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>e5627ae587427010bce264280cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>mid_selection</field>
+        <id>a5627ae587427010bce264280cbb353b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>25627ae587427010bce264280cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>mid_selection_type</field>
+        <id>a5627ae587427010bce264280cbb353b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>a9627ae587427010bce264280cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>script</field>
+        <id>a5627ae587427010bce264280cbb353b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>6d627ae587427010bce264280cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>step_input_response_body</field>
+        <id>a5627ae587427010bce264280cbb353b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>a1627ae587427010bce264280cbb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b</table>
+        <value>{{step[8750809e-bfb8-4895-a263-d4481650f845].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>step_input_status_code</field>
+        <id>a5627ae587427010bce264280cbb353b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>65627ae587427010bce264280cbb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b</table>
+        <value>{{step[8750809e-bfb8-4895-a263-d4481650f845].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="DELETE" query="model=a5627ae587427010bce264280cbb353b^sys_idNOT IN69627ae587427010bce264280cbb353e,a9627ae587427010bce264280cbb3544"/>
+    <sys_hub_step_ext_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>step_input_response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>step_input_response_body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Response">a5627ae587427010bce264280cbb353b</model>
+        <model_id>a5627ae587427010bce264280cbb353b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>69627ae587427010bce264280cbb353e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>step_input_status_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>step_input_status_code</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Response">a5627ae587427010bce264280cbb353b</model>
+        <model_id>a5627ae587427010bce264280cbb353b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>a9627ae587427010bce264280cbb3544</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="DELETE" query="model=a5627ae587427010bce264280cbb353b^sys_idNOT INe9627ae587427010bce264280cbb354a"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=767d42be-e81e-4ad6-a546-add9522d3922</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>step_output_answer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>step_output_answer</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Parse Response">a5627ae587427010bce264280cbb353b</model>
+        <model_id>a5627ae587427010bce264280cbb353b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a5627ae587427010bce264280cbb353b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>e9627ae587427010bce264280cbb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="DELETE" query="model=55623ae587427010bce264280cbb35ff^sys_idNOT INd5627ae587427010bce264280cbb3503"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=30fab87c-3cce-468e-8816-8f5186b2daa5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>question_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Question ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Get Trivia Answer">55623ae587427010bce264280cbb35ff</model>
+        <model_id>55623ae587427010bce264280cbb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_55623ae587427010bce264280cbb35ff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:47</sys_created_on>
+        <sys_id>d5627ae587427010bce264280cbb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="DELETE" query="model=55623ae587427010bce264280cbb35ff^sys_idNOT IN6d627ae587427010bce264280cbb3557"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5ae93513-ab11-402b-9637-0bbd1df5270c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>answer</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Answer</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Get Trivia Answer">55623ae587427010bce264280cbb35ff</model>
+        <model_id>55623ae587427010bce264280cbb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>6d627ae587427010bce264280cbb3557</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_55623ae587427010bce264280cbb35ff^sys_idNOT IN1d627ae587427010bce264280cbb3508"/>
+    <sys_documentation action="DELETE">
+        <element>question_id</element>
+        <help/>
+        <hint/>
+        <label>Question ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_55623ae587427010bce264280cbb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>1d627ae587427010bce264280cbb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">401d59b52f3db01023f25ff62799b6d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff^sys_idNOT IN69627ae587427010bce264280cbb355c"/>
+    <sys_documentation action="DELETE">
+        <element>answer</element>
+        <help/>
+        <hint/>
+        <label>Answer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:48</sys_created_on>
+        <sys_id>69627ae587427010bce264280cbb355c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">401d59b52f3db01023f25ff62799b6d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</application>
+        <file_path/>
+        <instance_id>f38da136db8650185749cac5059619b2</instance_id>
+        <instance_name>tac02396</instance_name>
+        <name>sys_hub_action_type_definition_55623ae587427010bce264280cbb35ff</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from&gt;041765842fce301023f25ff62799b6cf&lt;/copied_from&gt;&lt;copied_from_name&gt;Get Trivia Answer&lt;/copied_from_name&gt;&lt;description&gt;Given a valid sys_id for a Trivia question, returns the answer.&lt;/description&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;copy_of_get_trivia_answer&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.question_id}}","label":"action➛Question ID","type":"action","ref":""},{"name":"{{step[8750809e-bfb8-4895-a263-d4481650f845].response_body}}","label":"step➛Call getAnswer Method➛Response Body","type":"step","ref":""},{"name":"{{step[8750809e-bfb8-4895-a263-d4481650f845].status_code}}","label":"step➛Call getAnswer Method➛Status Code","type":"step","ref":""},{"name":"{{step[9c39fa42-d6d3-45b6-b82e-87db1abc880f].variable}}","label":"step➛Parse Response➛variable","type":"step","ref":""},{"name":"{{step[9c39fa42-d6d3-45b6-b82e-87db1abc880f].step_output_answer}}","label":"step➛Parse Response➛step_output_answer","type":"step","ref":""}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Copy of Get Trivia Answer&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;state&gt;draft&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;55623ae587427010bce264280cbb35ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Get Trivia Answer&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_55623ae587427010bce264280cbb35ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:49&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=55623ae587427010bce264280cbb35ff"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=55623ae587427010bce264280cbb35ff"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=55623ae587427010bce264280cbb35ff"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;answer&lt;/field&gt;&lt;id&gt;55623ae587427010bce264280cbb35ff&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;65627ae587427010bce264280cbb355f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff&lt;/table&gt;&lt;value&gt;{{step[9c39fa42-d6d3-45b6-b82e-87db1abc880f].step_output_answer}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=55623ae587427010bce264280cbb35ff^sys_idNOT IN11627ae587427010bce264280cbb350b,a5627ae587427010bce264280cbb353b"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Copy of Get Trivia Answer"&gt;55623ae587427010bce264280cbb35ff&lt;/action&gt;&lt;cid&gt;8750809e-bfb8-4895-a263-d4481650f845&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;Call getAnswer Method&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="REST"&gt;07a762fb47222200b4fad7527c9a7129&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;11627ae587427010bce264280cbb350b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=11627ae587427010bce264280cbb350b"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;11627ae587427010bce264280cbb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;ef751ff07301330025d71afe2ff6a7f9&lt;/value&gt;&lt;variable display_value="Retry Policy"&gt;37be397587c03300a8cc7d5e27cb0ba2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;13&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;2d627ae587427010bce264280cbb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;18409d8007482000dada43c0d1021e8f&lt;/value&gt;&lt;variable display_value="Capabilities"&gt;c30a451d2f201300a09a839fb18c95b4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;59627ae587427010bce264280cbb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;{"type":"ADV_NV","value":[]}&lt;/value&gt;&lt;variable display_value="Headers"&gt;371837f1c71003007b237f48cb9763b0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;25&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;65627ae587427010bce264280cbb3537&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;{}&lt;/value&gt;&lt;variable display_value="Query Parameters"&gt;4328e2fb47222200b4fad7527c9a7164&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;95627ae587427010bce264280cbb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;/api/x_snc_now_trivia/trivia/getAnswer&lt;/value&gt;&lt;variable display_value="Resource Path"&gt;3d090af03b23320057a4a2e334efc455&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;12&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a1627ae587427010bce264280cbb3537&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value="MID Application"&gt;f11ebf865f101300a09a2abd7f466652&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d1627ae587427010bce264280cbb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;25c622622f71741023f25ff62799b6ab&lt;/value&gt;&lt;variable display_value="Connection Alias"&gt;262882f03b23320057a4a2e334efc4f0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;11627ae587427010bce264280cbb350b&lt;/document_key&gt;&lt;order&gt;15&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;ed627ae587427010bce264280cbb3536&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;https://scripting.service-now.com&lt;/value&gt;&lt;variable display_value="Base URL"&gt;a67a8ef03b23320057a4a2e334efc472&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=11627ae587427010bce264280cbb350b"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d9627ae587427010bce264280cbb3535&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;base_url&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;19627ae587427010bce264280cbb3535&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;capabilities&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;55627ae587427010bce264280cbb3535&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;connection_alias&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1d627ae587427010bce264280cbb3534&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;headers&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;91627ae587427010bce264280cbb3535&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;query_params&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;9d627ae587427010bce264280cbb3535&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value&gt;{"type":"ADV_NV","value":[{"name":"sys_id","value":"{{action.question_id}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;resource_path&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;dd627ae587427010bce264280cbb3534&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;retry_policy&lt;/field&gt;&lt;id&gt;11627ae587427010bce264280cbb350b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;59627ae587427010bce264280cbb3534&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=11627ae587427010bce264280cbb350b^sys_idNOT IN1d627ae587427010bce264280cbb3517,59627ae587427010bce264280cbb3511,d5627ae587427010bce264280cbb351d"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=0c6f806f-e0c6-4fce-99b2-da20c6d5f57c&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_accept&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Accept&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Call getAnswer Method"&gt;11627ae587427010bce264280cbb350b&lt;/model&gt;&lt;model_id&gt;11627ae587427010bce264280cbb350b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_11627ae587427010bce264280cbb350b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;8&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1d627ae587427010bce264280cbb3517&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=0998e36b-0bc7-4223-b91f-d6c749815201&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sn_auth_token&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;Credential Value&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="Call getAnswer Method"&gt;11627ae587427010bce264280cbb350b&lt;/model&gt;&lt;model_id&gt;11627ae587427010bce264280cbb350b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_11627ae587427010bce264280cbb350b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;7&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;59627ae587427010bce264280cbb3511&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=d2196c36-39d3-4bd4-b852-29dce0b5f169&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_content-type&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Content-Type&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Call getAnswer Method"&gt;11627ae587427010bce264280cbb350b&lt;/model&gt;&lt;model_id&gt;11627ae587427010bce264280cbb350b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_11627ae587427010bce264280cbb350b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;9&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d5627ae587427010bce264280cbb351d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Copy of Get Trivia Answer"&gt;55623ae587427010bce264280cbb35ff&lt;/action&gt;&lt;cid&gt;9c39fa42-d6d3-45b6-b82e-87db1abc880f&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Parse Response&lt;/label&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a5627ae587427010bce264280cbb353b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a5627ae587427010bce264280cbb353b"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a5627ae587427010bce264280cbb353b&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;29627ae587427010bce264280cbb3554&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs) {
+
+// Pseudocode - if (the response from the REST call indicates it was OK)
+  
+if (inputs.step_input_status_code == '200')  {
+ 
+  	// Use the JSON parser to parse the REST call response body.
+    var response = JSON.parse(inputs.step_input_response_body);
+  
+  // Set the value of the step_output_answer output variable
+  outputs.step_output_answer = response.result.answer;
+
+}
+  
+})(inputs, outputs);
+&lt;/value&gt;&lt;variable display_value="Script"&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a5627ae587427010bce264280cbb353b&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;65627ae587427010bce264280cbb3554&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Select MID Server"&gt;2c226939b3101300176b051a16a8dc83&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a5627ae587427010bce264280cbb353b&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a1627ae587427010bce264280cbb3554&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="MID Application"&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a5627ae587427010bce264280cbb353b&lt;/document_key&gt;&lt;order&gt;350&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;ed627ae587427010bce264280cbb3553&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="MID Selection"&gt;cbd1070373531010791f94596bf6a776&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=a5627ae587427010bce264280cbb353b"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;a5627ae587427010bce264280cbb353b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;e5627ae587427010bce264280cbb3553&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;mid_selection&lt;/field&gt;&lt;id&gt;a5627ae587427010bce264280cbb353b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;25627ae587427010bce264280cbb3553&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;mid_selection_type&lt;/field&gt;&lt;id&gt;a5627ae587427010bce264280cbb353b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a9627ae587427010bce264280cbb3553&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;script&lt;/field&gt;&lt;id&gt;a5627ae587427010bce264280cbb353b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;6d627ae587427010bce264280cbb3553&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;step_input_response_body&lt;/field&gt;&lt;id&gt;a5627ae587427010bce264280cbb353b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a1627ae587427010bce264280cbb3555&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b&lt;/table&gt;&lt;value&gt;{{step[8750809e-bfb8-4895-a263-d4481650f845].response_body}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;step_input_status_code&lt;/field&gt;&lt;id&gt;a5627ae587427010bce264280cbb353b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;65627ae587427010bce264280cbb3555&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b&lt;/table&gt;&lt;value&gt;{{step[8750809e-bfb8-4895-a263-d4481650f845].status_code}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=a5627ae587427010bce264280cbb353b^sys_idNOT IN69627ae587427010bce264280cbb353e,a9627ae587427010bce264280cbb3544"/&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;step_input_response_body&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;step_input_response_body&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Parse Response"&gt;a5627ae587427010bce264280cbb353b&lt;/model&gt;&lt;model_id&gt;a5627ae587427010bce264280cbb353b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;69627ae587427010bce264280cbb353e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;step_input_status_code&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;step_input_status_code&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Parse Response"&gt;a5627ae587427010bce264280cbb353b&lt;/model&gt;&lt;model_id&gt;a5627ae587427010bce264280cbb353b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_a5627ae587427010bce264280cbb353b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a9627ae587427010bce264280cbb3544&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=a5627ae587427010bce264280cbb353b^sys_idNOT INe9627ae587427010bce264280cbb354a"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=767d42be-e81e-4ad6-a546-add9522d3922&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;step_output_answer&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;step_output_answer&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Parse Response"&gt;a5627ae587427010bce264280cbb353b&lt;/model&gt;&lt;model_id&gt;a5627ae587427010bce264280cbb353b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_a5627ae587427010bce264280cbb353b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;e9627ae587427010bce264280cbb354a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=55623ae587427010bce264280cbb35ff^sys_idNOT INd5627ae587427010bce264280cbb3503"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=30fab87c-3cce-468e-8816-8f5186b2daa5&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;question_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Question ID&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Get Trivia Answer"&gt;55623ae587427010bce264280cbb35ff&lt;/model&gt;&lt;model_id&gt;55623ae587427010bce264280cbb35ff&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_55623ae587427010bce264280cbb35ff&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:47&lt;/sys_created_on&gt;&lt;sys_id&gt;d5627ae587427010bce264280cbb3503&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:47&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=55623ae587427010bce264280cbb35ff^sys_idNOT IN6d627ae587427010bce264280cbb3557"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5ae93513-ab11-402b-9637-0bbd1df5270c&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;answer&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Answer&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Get Trivia Answer"&gt;55623ae587427010bce264280cbb35ff&lt;/model&gt;&lt;model_id&gt;55623ae587427010bce264280cbb35ff&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;6d627ae587427010bce264280cbb3557&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_55623ae587427010bce264280cbb35ff^sys_idNOT IN1d627ae587427010bce264280cbb3508"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;question_id&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Question ID&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_55623ae587427010bce264280cbb35ff&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1d627ae587427010bce264280cbb3508&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff^sys_idNOT IN69627ae587427010bce264280cbb355c"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;answer&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Answer&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_55623ae587427010bce264280cbb35ff&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-18 14:27:48&lt;/sys_created_on&gt;&lt;sys_id&gt;69627ae587427010bce264280cbb355c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:27:48&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>748761220</payload_hash>
+        <record_name>Copy of Get Trivia Answer</record_name>
+        <reverted_from/>
+        <source>881d59b52f3db01023f25ff62799b6d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 14:27:49</sys_created_on>
+        <sys_id>f1627ae587427010bce264280cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b59a941320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:27:49</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>3d627ae5b542701000ddfc096bfaa0db</update_guid>
+        <update_guid_history>3d627ae5b542701000ddfc096bfaa0db:748761220,d1627ae5734270102484aec70f1a8c02:40237850</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-18 15:03:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>4ef4e42ef15b41c8ac36952316f0b4a1</sys_id>
+        <sys_metadata>55623ae587427010bce264280cbb35ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Get Trivia Answer</sys_name>
+        <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">401d59b52f3db01023f25ff62799b6d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_scope_delete display_value="">340558f057fe4797a48edc4b1f97b751</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_55623ae587427010bce264280cbb35ff</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_55623ae587427010bce264280cbb35ff">f1627ae587427010bce264280cbb35dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 15:03:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
