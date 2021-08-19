@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_trivia_spoke</internal_name>
+        <label_cache>[{"name":"42db9d90-e666-4519-a8e1-9bc4a8645720.answer","label":"3➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ae93513-ab11-402b-9637-0bbd1df5270c"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.difficulty","label":"1➛Difficulty","reference_display":"Difficulty","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"393e7c1d-c257-452f-875c-0b90936ebcbb"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question","label":"1➛Question","reference_display":"Question","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1f67601f-eda5-4200-92e6-8d9076bd5dbd"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.category","label":"1➛Category","reference_display":"Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f62dd8d4-0a43-447b-8575-94056237d627"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id","label":"1➛Question ID","reference_display":"Question ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a2e23475-a7cf-4281-8889-025af5533d80"}}]</label_cache>
+        <latest_snapshot>f3534c428702b010bce264280cbb35d5</latest_snapshot>
+        <master_snapshot>b0ca41142f4a701023f25ff62799b6b8</master_snapshot>
+        <name>Test Trivia Spoke</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>b2cac1142f4a701023f25ff62799b679</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 16:48:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a8fdd712f7db01023f25ff62799b680</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Test Trivia Spoke</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">401d59b52f3db01023f25ff62799b6d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name>sys_hub_flow_6a8fdd712f7db01023f25ff62799b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-19 20:22:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=6a8fdd712f7db01023f25ff62799b680"/>
+    <sys_variable_value action="DELETE" query="document_key=6a8fdd712f7db01023f25ff62799b680"/>
+    <sys_flow_timer_trigger action="DELETE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2021-08-14 09:42:45</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2cac1142f4a701023f25ff62799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:45</sys_updated_on>
+        <time>1970-01-01 16:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="DELETE" query="name=Trigger:b2cac1142f4a701023f25ff62799b679^sys_idNOT IN7acac1142f4a701023f25ff62799b679"/>
+    <sys_flow_trigger_auto_script action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:b2cac1142f4a701023f25ff62799b679</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-08-14 09:42:45</run_start>
+        <run_time>1970-01-01 16:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('b2cac1142f4a701023f25ff62799b679');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:45</sys_created_on>
+        <sys_id>7acac1142f4a701023f25ff62799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:45</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">b2cac1142f4a701023f25ff62799b679</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_hub_trigger_instance action="DELETE" query="flow=6a8fdd712f7db01023f25ff62799b680^sys_idNOT INcd8a49d02f4a701023f25ff62799b629"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment>Run once per day at 8 am</comment>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">6a8fdd712f7db01023f25ff62799b680</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:33</sys_created_on>
+        <sys_id>cd8a49d02f4a701023f25ff62799b629</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:22:55</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=cd8a49d02f4a701023f25ff62799b629"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cd8a49d02f4a701023f25ff62799b629</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:33</sys_created_on>
+        <sys_id>0d8a49d02f4a701023f25ff62799b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:41:33</sys_updated_on>
+        <value>1970-01-01 08:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=6a8fdd712f7db01023f25ff62799b680^sys_idNOT IN2a8fdd712f7db01023f25ff62799b682"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>6a8fdd712f7db01023f25ff62799b680</id>
+        <name>Test Trivia Spoke</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 16:48:35</sys_created_on>
+        <sys_id>2a8fdd712f7db01023f25ff62799b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 16:48:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="DELETE" query="flow=6a8fdd712f7db01023f25ff62799b680^sys_idNOT IN0dd7c1502f4a701023f25ff62799b643,642a81d02f4a701023f25ff62799b621,76dfd9b12f7db01023f25ff62799b673,d2482dc42fce301023f25ff62799b68c"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
+        <action_type_parent/>
+        <comment>Post Question to Slack channel #integrations</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">6a8fdd712f7db01023f25ff62799b680</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:29:48</sys_created_on>
+        <sys_id>0dd7c1502f4a701023f25ff62799b643</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:22:55</sys_updated_on>
+        <ui_id>90654696-3a94-45f3-aea4-764e3568d1f1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=0dd7c1502f4a701023f25ff62799b643"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0dd7c1502f4a701023f25ff62799b643</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:45</sys_created_on>
+        <sys_id>5c9a89d02f4a701023f25ff62799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:41:45</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">59e6e24b3ba0030057a4a2e334efc4fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0dd7c1502f4a701023f25ff62799b643</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:29:48</sys_created_on>
+        <sys_id>5dd7c1502f4a701023f25ff62799b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:29:48</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">41ca0f433be0030057a4a2e334efc48f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0dd7c1502f4a701023f25ff62799b643</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:45</sys_created_on>
+        <sys_id>989a89d02f4a701023f25ff62799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:41:45</sys_updated_on>
+        <value>#integrations</value>
+        <variable display_value="">25e6ea4b3ba0030057a4a2e334efc478</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0dd7c1502f4a701023f25ff62799b643</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:29:49</sys_created_on>
+        <sys_id>99d7c1502f4a701023f25ff62799b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:29:49</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0dd7c1502f4a701023f25ff62799b643</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:45</sys_created_on>
+        <sys_id>d49a89d02f4a701023f25ff62799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:41:45</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc46c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0dd7c1502f4a701023f25ff62799b643</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:29:49</sys_created_on>
+        <sys_id>d5d7c1502f4a701023f25ff62799b647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:29:49</sys_updated_on>
+        <value>#integrations</value>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
+        <action_type_parent/>
+        <comment>Post Answer to Slack channel #integrations</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">6a8fdd712f7db01023f25ff62799b680</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:39:52</sys_created_on>
+        <sys_id>642a81d02f4a701023f25ff62799b621</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:22:55</sys_updated_on>
+        <ui_id>fe11c3ff-105a-4f40-9bde-796d48d1718a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=642a81d02f4a701023f25ff62799b621"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>642a81d02f4a701023f25ff62799b621</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:46</sys_created_on>
+        <sys_id>1c9a89d02f4a701023f25ff62799b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:41:46</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">59e6e24b3ba0030057a4a2e334efc4fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>642a81d02f4a701023f25ff62799b621</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:46</sys_created_on>
+        <sys_id>589a89d02f4a701023f25ff62799b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:41:46</sys_updated_on>
+        <value>#integrations</value>
+        <variable display_value="">25e6ea4b3ba0030057a4a2e334efc478</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>642a81d02f4a701023f25ff62799b621</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:39:52</sys_created_on>
+        <sys_id>642a81d02f4a701023f25ff62799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:39:52</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">41ca0f433be0030057a4a2e334efc48f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>642a81d02f4a701023f25ff62799b621</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:41:46</sys_created_on>
+        <sys_id>949a89d02f4a701023f25ff62799b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:41:46</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc46c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>642a81d02f4a701023f25ff62799b621</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:39:52</sys_created_on>
+        <sys_id>a02a81d02f4a701023f25ff62799b625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:39:52</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>642a81d02f4a701023f25ff62799b621</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:39:52</sys_created_on>
+        <sys_id>ec2a81d02f4a701023f25ff62799b624</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:39:52</sys_updated_on>
+        <value>#integrations</value>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Get Trivia Question">1f9d1d312f7db01023f25ff62799b61b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">6a8fdd712f7db01023f25ff62799b680</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 16:49:57</sys_created_on>
+        <sys_id>76dfd9b12f7db01023f25ff62799b673</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:22:55</sys_updated_on>
+        <ui_id>3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=76dfd9b12f7db01023f25ff62799b673"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Trivia Answer">041765842fce301023f25ff62799b6cf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">6a8fdd712f7db01023f25ff62799b680</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 17:13:07</sys_created_on>
+        <sys_id>d2482dc42fce301023f25ff62799b68c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-18 14:22:55</sys_updated_on>
+        <ui_id>42db9d90-e666-4519-a8e1-9bc4a8645720</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d2482dc42fce301023f25ff62799b68c"/>
+    <sys_element_mapping action="DELETE" query="id=d2482dc42fce301023f25ff62799b68c"/>
+    <sys_element_mapping action="DELETE">
+        <field>question_id</field>
+        <id>d2482dc42fce301023f25ff62799b68c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 17:13:07</sys_created_on>
+        <sys_id>da482dc42fce301023f25ff62799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 17:13:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_041765842fce301023f25ff62799b6cf</table>
+        <value>{{3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id}}</value>
+    </sys_element_mapping>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=6a8fdd712f7db01023f25ff62799b680^sys_idNOT IN3ecac1142f4a701023f25ff62799b67b"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3ecac1142f4a701023f25ff62799b67b","name":"plan"}}</plan>
+        <plan_id>6a8fdd712f7db01023f25ff62799b680</plan_id>
+        <snapshot>f3534c428702b010bce264280cbb35d5</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ecac1142f4a701023f25ff62799b67b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:45</sys_updated_on>
+        <trigger display_value="">b2cac1142f4a701023f25ff62799b679</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_trivia_spoke</internal_name>
+        <label_cache>[{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id","label":"1➛Question ID","reference_display":"Question ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a2e23475-a7cf-4281-8889-025af5533d80"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.category","label":"1➛Category","reference_display":"Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f62dd8d4-0a43-447b-8575-94056237d627"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question","label":"1➛Question","reference_display":"Question","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1f67601f-eda5-4200-92e6-8d9076bd5dbd"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.difficulty","label":"1➛Difficulty","reference_display":"Difficulty","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"393e7c1d-c257-452f-875c-0b90936ebcbb"}},{"name":"42db9d90-e666-4519-a8e1-9bc4a8645720.answer","label":"3➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ae93513-ab11-402b-9637-0bbd1df5270c"}}]</label_cache>
+        <master>true</master>
+        <name>Test Trivia Spoke</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Test Trivia Spoke">6a8fdd712f7db01023f25ff62799b680</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0ca41142f4a701023f25ff62799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:37</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=b0ca41142f4a701023f25ff62799b6b8"/>
+    <sys_variable_value action="DELETE" query="document_key=b0ca41142f4a701023f25ff62799b6b8"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=b0ca41142f4a701023f25ff62799b6b8^sys_idNOT IN19ca81142f4a701023f25ff62799b629"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">b0ca41142f4a701023f25ff62799b6b8</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:39</sys_created_on>
+        <sys_id>19ca81142f4a701023f25ff62799b629</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:45</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=19ca81142f4a701023f25ff62799b629"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>19ca81142f4a701023f25ff62799b629</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:39</sys_created_on>
+        <sys_id>9dca81142f4a701023f25ff62799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:39</sys_updated_on>
+        <value>1970-01-01 08:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=b0ca41142f4a701023f25ff62799b6b8^sys_idNOT INb4ca41142f4a701023f25ff62799b6b8"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>b0ca41142f4a701023f25ff62799b6b8</id>
+        <name>Test Trivia Spoke</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:37</sys_created_on>
+        <sys_id>b4ca41142f4a701023f25ff62799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="DELETE" query="flow=b0ca41142f4a701023f25ff62799b6b8^sys_idNOT IN01ca81142f4a701023f25ff62799b618,49ca41142f4a701023f25ff62799b6e2,89ca41142f4a701023f25ff62799b6d4,9dca81142f4a701023f25ff62799b626"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Trivia Answer">7f0cad882fce301023f25ff62799b663</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>041765842fce301023f25ff62799b6cf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">b0ca41142f4a701023f25ff62799b6b8</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:38</sys_created_on>
+        <sys_id>01ca81142f4a701023f25ff62799b618</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:38</sys_updated_on>
+        <ui_id>42db9d90-e666-4519-a8e1-9bc4a8645720</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=01ca81142f4a701023f25ff62799b618"/>
+    <sys_element_mapping action="DELETE" query="id=01ca81142f4a701023f25ff62799b618"/>
+    <sys_element_mapping action="DELETE">
+        <field>question_id</field>
+        <id>01ca81142f4a701023f25ff62799b618</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:38</sys_created_on>
+        <sys_id>15ca81142f4a701023f25ff62799b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7f0cad882fce301023f25ff62799b663</table>
+        <value>{{3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
+        <action_type_parent/>
+        <comment>Post Question to Slack channel #integrations</comment>
+        <compiled_snapshot>d3b4e24b3ba0030057a4a2e334efc4e4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">b0ca41142f4a701023f25ff62799b6b8</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:38</sys_created_on>
+        <sys_id>49ca41142f4a701023f25ff62799b6e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:38</sys_updated_on>
+        <ui_id>90654696-3a94-45f3-aea4-764e3568d1f1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=49ca41142f4a701023f25ff62799b6e2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>49ca41142f4a701023f25ff62799b6e2</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:38</sys_created_on>
+        <sys_id>0dca41142f4a701023f25ff62799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:38</sys_updated_on>
+        <value>#integrations</value>
+        <variable display_value="">25e6ea4b3ba0030057a4a2e334efc478</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>49ca41142f4a701023f25ff62799b6e2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:38</sys_created_on>
+        <sys_id>49ca41142f4a701023f25ff62799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:38</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc46c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>49ca41142f4a701023f25ff62799b6e2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:38</sys_created_on>
+        <sys_id>cdca41142f4a701023f25ff62799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:38</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">59e6e24b3ba0030057a4a2e334efc4fe</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Get Trivia Question">20322d352f7db01023f25ff62799b6b1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>1f9d1d312f7db01023f25ff62799b61b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">b0ca41142f4a701023f25ff62799b6b8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:37</sys_created_on>
+        <sys_id>89ca41142f4a701023f25ff62799b6d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:37</sys_updated_on>
+        <ui_id>3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=89ca41142f4a701023f25ff62799b6d4"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
+        <action_type_parent/>
+        <comment>Post Answer to Slack channel #integrations</comment>
+        <compiled_snapshot>d3b4e24b3ba0030057a4a2e334efc4e4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">b0ca41142f4a701023f25ff62799b6b8</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:39</sys_created_on>
+        <sys_id>9dca81142f4a701023f25ff62799b626</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:39</sys_updated_on>
+        <ui_id>fe11c3ff-105a-4f40-9bde-796d48d1718a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9dca81142f4a701023f25ff62799b626"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9dca81142f4a701023f25ff62799b626</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:39</sys_created_on>
+        <sys_id>15ca81142f4a701023f25ff62799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:39</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">59e6e24b3ba0030057a4a2e334efc4fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9dca81142f4a701023f25ff62799b626</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:39</sys_created_on>
+        <sys_id>51ca81142f4a701023f25ff62799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:39</sys_updated_on>
+        <value>#integrations</value>
+        <variable display_value="">25e6ea4b3ba0030057a4a2e334efc478</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9dca81142f4a701023f25ff62799b626</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 09:42:39</sys_created_on>
+        <sys_id>9dca81142f4a701023f25ff62799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 09:42:39</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc46c</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</application>
+        <file_path/>
+        <instance_id>22299d20dbafd7844f035d00cf961908</instance_id>
+        <instance_name>dev66817</instance_name>
+        <name>sys_hub_flow_6a8fdd712f7db01023f25ff62799b680</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build&gt;glide-quebec-12-09-2020__patch1-02-18-2021&lt;/compiler_build&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;test_trivia_spoke&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"42db9d90-e666-4519-a8e1-9bc4a8645720.answer","label":"3➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ae93513-ab11-402b-9637-0bbd1df5270c"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.difficulty","label":"1➛Difficulty","reference_display":"Difficulty","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"393e7c1d-c257-452f-875c-0b90936ebcbb"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question","label":"1➛Question","reference_display":"Question","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1f67601f-eda5-4200-92e6-8d9076bd5dbd"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.category","label":"1➛Category","reference_display":"Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f62dd8d4-0a43-447b-8575-94056237d627"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id","label":"1➛Question ID","reference_display":"Question ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a2e23475-a7cf-4281-8889-025af5533d80"}}]&lt;/label_cache&gt;&lt;latest_snapshot&gt;f3534c428702b010bce264280cbb35d5&lt;/latest_snapshot&gt;&lt;master_snapshot&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/master_snapshot&gt;&lt;name&gt;Test Trivia Spoke&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;remote_trigger_id&gt;b2cac1142f4a701023f25ff62799b679&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-06 16:48:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6a8fdd712f7db01023f25ff62799b680&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test Trivia Spoke&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_6a8fdd712f7db01023f25ff62799b680&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-19 20:22:18&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6a8fdd712f7db01023f25ff62799b680"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6a8fdd712f7db01023f25ff62799b680"/&gt;&lt;sys_flow_timer_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;day_of_month&gt;1&lt;/day_of_month&gt;&lt;day_of_week/&gt;&lt;name/&gt;&lt;run_period/&gt;&lt;run_start&gt;2021-08-14 09:42:45&lt;/run_start&gt;&lt;sys_class_name&gt;sys_flow_timer_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b2cac1142f4a701023f25ff62799b679&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:45&lt;/sys_updated_on&gt;&lt;time&gt;1970-01-01 16:00:00&lt;/time&gt;&lt;timer_type&gt;11&lt;/timer_type&gt;&lt;/sys_flow_timer_trigger&gt;&lt;sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:b2cac1142f4a701023f25ff62799b679^sys_idNOT IN7acac1142f4a701023f25ff62799b679"/&gt;&lt;sys_flow_trigger_auto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time/&gt;&lt;name&gt;Trigger:b2cac1142f4a701023f25ff62799b679&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek/&gt;&lt;run_period/&gt;&lt;run_start&gt;2021-08-14 09:42:45&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 16:00:00&lt;/run_time&gt;&lt;run_type&gt;daily&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('b2cac1142f4a701023f25ff62799b679');]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_flow_trigger_auto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:45&lt;/sys_created_on&gt;&lt;sys_id&gt;7acac1142f4a701023f25ff62799b679&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:45&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;trigger display_value=""&gt;b2cac1142f4a701023f25ff62799b679&lt;/trigger&gt;&lt;upgrade_safe&gt;true&lt;/upgrade_safe&gt;&lt;/sys_flow_trigger_auto_script&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=6a8fdd712f7db01023f25ff62799b680^sys_idNOT INcd8a49d02f4a701023f25ff62799b629"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment&gt;Run once per day at 8 am&lt;/comment&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;6a8fdd712f7db01023f25ff62799b680&lt;/flow&gt;&lt;name&gt;Daily&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:33&lt;/sys_created_on&gt;&lt;sys_id&gt;cd8a49d02f4a701023f25ff62799b629&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:22:55&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Daily"&gt;89142dc0c32222002841b63b12d3ae8a&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;daily&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=cd8a49d02f4a701023f25ff62799b629"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;cd8a49d02f4a701023f25ff62799b629&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:33&lt;/sys_created_on&gt;&lt;sys_id&gt;0d8a49d02f4a701023f25ff62799b62a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:41:33&lt;/sys_updated_on&gt;&lt;value&gt;1970-01-01 08:00:00&lt;/value&gt;&lt;variable display_value="Time"&gt;3ad4edc0c32222002841b63b12d3aee5&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=6a8fdd712f7db01023f25ff62799b680^sys_idNOT IN2a8fdd712f7db01023f25ff62799b682"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6a8fdd712f7db01023f25ff62799b680&lt;/id&gt;&lt;name&gt;Test Trivia Spoke&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-06 16:48:35&lt;/sys_created_on&gt;&lt;sys_id&gt;2a8fdd712f7db01023f25ff62799b682&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-06 16:48:35&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=6a8fdd712f7db01023f25ff62799b680^sys_idNOT IN0dd7c1502f4a701023f25ff62799b643,642a81d02f4a701023f25ff62799b621,76dfd9b12f7db01023f25ff62799b673,d2482dc42fce301023f25ff62799b68c"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value=""&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment&gt;Post Question to Slack channel #integrations&lt;/comment&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;6a8fdd712f7db01023f25ff62799b680&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:29:48&lt;/sys_created_on&gt;&lt;sys_id&gt;0dd7c1502f4a701023f25ff62799b643&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:22:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;90654696-3a94-45f3-aea4-764e3568d1f1&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0dd7c1502f4a701023f25ff62799b643"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0dd7c1502f4a701023f25ff62799b643&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:45&lt;/sys_created_on&gt;&lt;sys_id&gt;5c9a89d02f4a701023f25ff62799b6c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:41:45&lt;/sys_updated_on&gt;&lt;value&gt;https://hooks.slack.com/services/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&lt;/value&gt;&lt;variable display_value=""&gt;59e6e24b3ba0030057a4a2e334efc4fe&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0dd7c1502f4a701023f25ff62799b643&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:29:48&lt;/sys_created_on&gt;&lt;sys_id&gt;5dd7c1502f4a701023f25ff62799b646&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:29:48&lt;/sys_updated_on&gt;&lt;value&gt;slackbot&lt;/value&gt;&lt;variable display_value=""&gt;41ca0f433be0030057a4a2e334efc48f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0dd7c1502f4a701023f25ff62799b643&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:45&lt;/sys_created_on&gt;&lt;sys_id&gt;989a89d02f4a701023f25ff62799b6c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:41:45&lt;/sys_updated_on&gt;&lt;value&gt;#integrations&lt;/value&gt;&lt;variable display_value=""&gt;25e6ea4b3ba0030057a4a2e334efc478&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0dd7c1502f4a701023f25ff62799b643&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:29:49&lt;/sys_created_on&gt;&lt;sys_id&gt;99d7c1502f4a701023f25ff62799b647&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:29:49&lt;/sys_updated_on&gt;&lt;value&gt;https://hooks.slack.com/services/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&lt;/value&gt;&lt;variable display_value=""&gt;cdca0f433be0030057a4a2e334efc476&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0dd7c1502f4a701023f25ff62799b643&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:45&lt;/sys_created_on&gt;&lt;sys_id&gt;d49a89d02f4a701023f25ff62799b6c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:41:45&lt;/sys_updated_on&gt;&lt;value&gt;slackbot&lt;/value&gt;&lt;variable display_value=""&gt;2de6ea4b3ba0030057a4a2e334efc46c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0dd7c1502f4a701023f25ff62799b643&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:29:49&lt;/sys_created_on&gt;&lt;sys_id&gt;d5d7c1502f4a701023f25ff62799b647&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:29:49&lt;/sys_updated_on&gt;&lt;value&gt;#integrations&lt;/value&gt;&lt;variable display_value=""&gt;85ca0f433be0030057a4a2e334efc49a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value=""&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment&gt;Post Answer to Slack channel #integrations&lt;/comment&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;6a8fdd712f7db01023f25ff62799b680&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:39:52&lt;/sys_created_on&gt;&lt;sys_id&gt;642a81d02f4a701023f25ff62799b621&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:22:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;fe11c3ff-105a-4f40-9bde-796d48d1718a&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=642a81d02f4a701023f25ff62799b621"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;642a81d02f4a701023f25ff62799b621&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:46&lt;/sys_created_on&gt;&lt;sys_id&gt;1c9a89d02f4a701023f25ff62799b6d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:41:46&lt;/sys_updated_on&gt;&lt;value&gt;https://hooks.slack.com/services/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&lt;/value&gt;&lt;variable display_value=""&gt;59e6e24b3ba0030057a4a2e334efc4fe&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;642a81d02f4a701023f25ff62799b621&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:46&lt;/sys_created_on&gt;&lt;sys_id&gt;589a89d02f4a701023f25ff62799b6d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:41:46&lt;/sys_updated_on&gt;&lt;value&gt;#integrations&lt;/value&gt;&lt;variable display_value=""&gt;25e6ea4b3ba0030057a4a2e334efc478&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;642a81d02f4a701023f25ff62799b621&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:39:52&lt;/sys_created_on&gt;&lt;sys_id&gt;642a81d02f4a701023f25ff62799b624&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:39:52&lt;/sys_updated_on&gt;&lt;value&gt;slackbot&lt;/value&gt;&lt;variable display_value=""&gt;41ca0f433be0030057a4a2e334efc48f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;642a81d02f4a701023f25ff62799b621&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:41:46&lt;/sys_created_on&gt;&lt;sys_id&gt;949a89d02f4a701023f25ff62799b6d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:41:46&lt;/sys_updated_on&gt;&lt;value&gt;slackbot&lt;/value&gt;&lt;variable display_value=""&gt;2de6ea4b3ba0030057a4a2e334efc46c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;642a81d02f4a701023f25ff62799b621&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:39:52&lt;/sys_created_on&gt;&lt;sys_id&gt;a02a81d02f4a701023f25ff62799b625&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:39:52&lt;/sys_updated_on&gt;&lt;value&gt;https://hooks.slack.com/services/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&lt;/value&gt;&lt;variable display_value=""&gt;cdca0f433be0030057a4a2e334efc476&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;642a81d02f4a701023f25ff62799b621&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:39:52&lt;/sys_created_on&gt;&lt;sys_id&gt;ec2a81d02f4a701023f25ff62799b624&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:39:52&lt;/sys_updated_on&gt;&lt;value&gt;#integrations&lt;/value&gt;&lt;variable display_value=""&gt;85ca0f433be0030057a4a2e334efc49a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Get Trivia Question"&gt;1f9d1d312f7db01023f25ff62799b61b&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;6a8fdd712f7db01023f25ff62799b680&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-06 16:49:57&lt;/sys_created_on&gt;&lt;sys_id&gt;76dfd9b12f7db01023f25ff62799b673&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:22:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=76dfd9b12f7db01023f25ff62799b673"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Get Trivia Answer"&gt;041765842fce301023f25ff62799b6cf&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;6a8fdd712f7db01023f25ff62799b680&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-13 17:13:07&lt;/sys_created_on&gt;&lt;sys_id&gt;d2482dc42fce301023f25ff62799b68c&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-18 14:22:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;42db9d90-e666-4519-a8e1-9bc4a8645720&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d2482dc42fce301023f25ff62799b68c"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=d2482dc42fce301023f25ff62799b68c"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;question_id&lt;/field&gt;&lt;id&gt;d2482dc42fce301023f25ff62799b68c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-13 17:13:07&lt;/sys_created_on&gt;&lt;sys_id&gt;da482dc42fce301023f25ff62799b68d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-13 17:13:07&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_041765842fce301023f25ff62799b6cf&lt;/table&gt;&lt;value&gt;{{3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=6a8fdd712f7db01023f25ff62799b680^sys_idNOT IN3ecac1142f4a701023f25ff62799b67b"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.RunAlways&lt;/binding_strategy&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3ecac1142f4a701023f25ff62799b67b","name":"plan"}}&lt;/plan&gt;&lt;plan_id&gt;6a8fdd712f7db01023f25ff62799b680&lt;/plan_id&gt;&lt;snapshot&gt;f3534c428702b010bce264280cbb35d5&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3ecac1142f4a701023f25ff62799b67b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:45&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;b2cac1142f4a701023f25ff62799b679&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;test_trivia_spoke&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id","label":"1➛Question ID","reference_display":"Question ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a2e23475-a7cf-4281-8889-025af5533d80"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.category","label":"1➛Category","reference_display":"Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f62dd8d4-0a43-447b-8575-94056237d627"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question","label":"1➛Question","reference_display":"Question","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1f67601f-eda5-4200-92e6-8d9076bd5dbd"}},{"name":"3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.difficulty","label":"1➛Difficulty","reference_display":"Difficulty","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"393e7c1d-c257-452f-875c-0b90936ebcbb"}},{"name":"42db9d90-e666-4519-a8e1-9bc4a8645720.answer","label":"3➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5ae93513-ab11-402b-9637-0bbd1df5270c"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Test Trivia Spoke&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Test Trivia Spoke"&gt;6a8fdd712f7db01023f25ff62799b680&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:37&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b0ca41142f4a701023f25ff62799b6b8"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b0ca41142f4a701023f25ff62799b6b8"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=b0ca41142f4a701023f25ff62799b6b8^sys_idNOT IN19ca81142f4a701023f25ff62799b629"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/flow&gt;&lt;name&gt;Daily&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:39&lt;/sys_created_on&gt;&lt;sys_id&gt;19ca81142f4a701023f25ff62799b629&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:45&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Daily"&gt;89142dc0c32222002841b63b12d3ae8a&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;daily&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=19ca81142f4a701023f25ff62799b629"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;19ca81142f4a701023f25ff62799b629&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:39&lt;/sys_created_on&gt;&lt;sys_id&gt;9dca81142f4a701023f25ff62799b629&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:39&lt;/sys_updated_on&gt;&lt;value&gt;1970-01-01 08:00:00&lt;/value&gt;&lt;variable display_value="Time"&gt;3ad4edc0c32222002841b63b12d3aee5&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=b0ca41142f4a701023f25ff62799b6b8^sys_idNOT INb4ca41142f4a701023f25ff62799b6b8"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/id&gt;&lt;name&gt;Test Trivia Spoke&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b4ca41142f4a701023f25ff62799b6b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:37&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=b0ca41142f4a701023f25ff62799b6b8^sys_idNOT IN01ca81142f4a701023f25ff62799b618,49ca41142f4a701023f25ff62799b6e2,89ca41142f4a701023f25ff62799b6d4,9dca81142f4a701023f25ff62799b626"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Get Trivia Answer"&gt;7f0cad882fce301023f25ff62799b663&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;041765842fce301023f25ff62799b6cf&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;01ca81142f4a701023f25ff62799b618&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:38&lt;/sys_updated_on&gt;&lt;ui_id&gt;42db9d90-e666-4519-a8e1-9bc4a8645720&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=01ca81142f4a701023f25ff62799b618"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=01ca81142f4a701023f25ff62799b618"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;question_id&lt;/field&gt;&lt;id&gt;01ca81142f4a701023f25ff62799b618&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;15ca81142f4a701023f25ff62799b619&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:38&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_7f0cad882fce301023f25ff62799b663&lt;/table&gt;&lt;value&gt;{{3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question_id}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value=""&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment&gt;Post Question to Slack channel #integrations&lt;/comment&gt;&lt;compiled_snapshot&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;49ca41142f4a701023f25ff62799b6e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:38&lt;/sys_updated_on&gt;&lt;ui_id&gt;90654696-3a94-45f3-aea4-764e3568d1f1&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=49ca41142f4a701023f25ff62799b6e2"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;49ca41142f4a701023f25ff62799b6e2&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;0dca41142f4a701023f25ff62799b6e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:38&lt;/sys_updated_on&gt;&lt;value&gt;#integrations&lt;/value&gt;&lt;variable display_value=""&gt;25e6ea4b3ba0030057a4a2e334efc478&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;49ca41142f4a701023f25ff62799b6e2&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;49ca41142f4a701023f25ff62799b6e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:38&lt;/sys_updated_on&gt;&lt;value&gt;slackbot&lt;/value&gt;&lt;variable display_value=""&gt;2de6ea4b3ba0030057a4a2e334efc46c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;49ca41142f4a701023f25ff62799b6e2&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;cdca41142f4a701023f25ff62799b6e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:38&lt;/sys_updated_on&gt;&lt;value&gt;https://hooks.slack.com/services/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&lt;/value&gt;&lt;variable display_value=""&gt;59e6e24b3ba0030057a4a2e334efc4fe&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Get Trivia Question"&gt;20322d352f7db01023f25ff62799b6b1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;1f9d1d312f7db01023f25ff62799b61b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:37&lt;/sys_created_on&gt;&lt;sys_id&gt;89ca41142f4a701023f25ff62799b6d4&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:37&lt;/sys_updated_on&gt;&lt;ui_id&gt;3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=89ca41142f4a701023f25ff62799b6d4"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value=""&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment&gt;Post Answer to Slack channel #integrations&lt;/comment&gt;&lt;compiled_snapshot&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Test Trivia Spoke"&gt;b0ca41142f4a701023f25ff62799b6b8&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:39&lt;/sys_created_on&gt;&lt;sys_id&gt;9dca81142f4a701023f25ff62799b626&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SN Trivia Spoke"&gt;401d59b52f3db01023f25ff62799b6d6&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:39&lt;/sys_updated_on&gt;&lt;ui_id&gt;fe11c3ff-105a-4f40-9bde-796d48d1718a&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9dca81142f4a701023f25ff62799b626"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9dca81142f4a701023f25ff62799b626&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:39&lt;/sys_created_on&gt;&lt;sys_id&gt;15ca81142f4a701023f25ff62799b629&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:39&lt;/sys_updated_on&gt;&lt;value&gt;https://hooks.slack.com/services/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&lt;/value&gt;&lt;variable display_value=""&gt;59e6e24b3ba0030057a4a2e334efc4fe&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9dca81142f4a701023f25ff62799b626&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:39&lt;/sys_created_on&gt;&lt;sys_id&gt;51ca81142f4a701023f25ff62799b629&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:39&lt;/sys_updated_on&gt;&lt;value&gt;#integrations&lt;/value&gt;&lt;variable display_value=""&gt;25e6ea4b3ba0030057a4a2e334efc478&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9dca81142f4a701023f25ff62799b626&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-14 09:42:39&lt;/sys_created_on&gt;&lt;sys_id&gt;9dca81142f4a701023f25ff62799b628&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-14 09:42:39&lt;/sys_updated_on&gt;&lt;value&gt;slackbot&lt;/value&gt;&lt;variable display_value=""&gt;2de6ea4b3ba0030057a4a2e334efc46c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1046562022</payload_hash>
+        <record_name>Test Trivia Spoke</record_name>
+        <reverted_from/>
+        <source>294b41061b023010d4d38515ec4bcba7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-19 20:22:19</sys_created_on>
+        <sys_id>582d85861b023010d4d38515ec4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b601429b20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-19 20:22:19</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>d02d8586af0230101bbb04ef03b3f908</update_guid>
+        <update_guid_history>d02d8586af0230101bbb04ef03b3f908:1046562022,3a3b89064c023010c54f8ee48af54da8:-2003754614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-19 20:22:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>02acc046c9a6424281a0fd634d767984</sys_id>
+        <sys_metadata>6a8fdd712f7db01023f25ff62799b680</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Trivia Spoke</sys_name>
+        <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">401d59b52f3db01023f25ff62799b6d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">401d59b52f3db01023f25ff62799b6d6</sys_scope>
+        <sys_scope_delete display_value="">340558f057fe4797a48edc4b1f97b751</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_6a8fdd712f7db01023f25ff62799b680</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_6a8fdd712f7db01023f25ff62799b680">582d85861b023010d4d38515ec4bcb08</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-19 20:22:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

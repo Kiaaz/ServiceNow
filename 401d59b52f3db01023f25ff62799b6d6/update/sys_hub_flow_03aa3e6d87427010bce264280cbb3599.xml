@@ -148,8 +148,7 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Post a Message">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
+        <action_type display_value="">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
         <action_type_parent/>
         <comment>Post Answer to Slack channel #integrations</comment>
         <compiled_snapshot>d3b4e24b3ba0030057a4a2e334efc4e4</compiled_snapshot>
@@ -180,7 +179,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
         <value>https://hooks.slack.com/services/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</value>
-        <variable display_value="Webhook URL">59e6e24b3ba0030057a4a2e334efc4fe</variable>
+        <variable display_value="">59e6e24b3ba0030057a4a2e334efc4fe</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -194,7 +193,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
         <value>#integrations</value>
-        <variable display_value="Channel">25e6ea4b3ba0030057a4a2e334efc478</variable>
+        <variable display_value="">25e6ea4b3ba0030057a4a2e334efc478</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -208,61 +207,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
         <value>slackbot</value>
-        <variable display_value="Username">2de6ea4b3ba0030057a4a2e334efc46c</variable>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc46c</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a3aa7e6d87427010bce264280cbb3527"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_channel</field>
-        <id>a3aa7e6d87427010bce264280cbb3527</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>23aa7e6d87427010bce264280cbb3529</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_message</field>
-        <id>a3aa7e6d87427010bce264280cbb3527</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>6faa7e6d87427010bce264280cbb3528</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value>Trivia answer: {{42db9d90-e666-4519-a8e1-9bc4a8645720.answer}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_username</field>
-        <id>a3aa7e6d87427010bce264280cbb3527</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>e7aa7e6d87427010bce264280cbb3528</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_webhook_url</field>
-        <id>a3aa7e6d87427010bce264280cbb3527</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>abaa7e6d87427010bce264280cbb3528</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Post a Message">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
+        <action_type display_value="">d3b4e24b3ba0030057a4a2e334efc4e4</action_type>
         <action_type_parent/>
         <comment>Post Question to Slack channel #integrations</comment>
         <compiled_snapshot>d3b4e24b3ba0030057a4a2e334efc4e4</compiled_snapshot>
@@ -293,7 +242,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
         <value>#integrations</value>
-        <variable display_value="Channel">25e6ea4b3ba0030057a4a2e334efc478</variable>
+        <variable display_value="">25e6ea4b3ba0030057a4a2e334efc478</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -307,7 +256,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
         <value>https://hooks.slack.com/services/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</value>
-        <variable display_value="Webhook URL">59e6e24b3ba0030057a4a2e334efc4fe</variable>
+        <variable display_value="">59e6e24b3ba0030057a4a2e334efc4fe</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -321,55 +270,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
         <value>slackbot</value>
-        <variable display_value="Username">2de6ea4b3ba0030057a4a2e334efc46c</variable>
+        <variable display_value="">2de6ea4b3ba0030057a4a2e334efc46c</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=dbaa3e6d87427010bce264280cbb35fa"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_channel</field>
-        <id>dbaa3e6d87427010bce264280cbb35fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>57aa3e6d87427010bce264280cbb35fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_message</field>
-        <id>dbaa3e6d87427010bce264280cbb35fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>93aa3e6d87427010bce264280cbb35fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value>Trivia Question: {{3fe8645f-6ef3-45a7-9fc7-c9fc7a921fa7.question}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_username</field>
-        <id>dbaa3e6d87427010bce264280cbb35fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>97aa3e6d87427010bce264280cbb35fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_webhook_url</field>
-        <id>dbaa3e6d87427010bce264280cbb35fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-18 15:03:59</sys_created_on>
-        <sys_id>dfaa3e6d87427010bce264280cbb35fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-18 15:03:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d3b4e24b3ba0030057a4a2e334efc4e4</table>
-        <value/>
-    </sys_element_mapping>
 </record_update>
